@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+p{
+    padding: 10px;
+    color: blue;
+}
+input, button{
+    height: 35px;
+    width: 200px;
+    margin: 5px;
+}
+button{
+    background-color: skyblue;
+}
+fieldset{
+margin: 4px;
+}

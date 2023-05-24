@@ -1,0 +1,75 @@
+:root{
+    --var-color : #2a2b32;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../src/documento/Lato-Regular.ttf');
+         
+  }
+  
+#barWorks{
+    width: 250px;
+    height: 572px;
+    background: #181818;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#NewCurse{
+    height: 40px;
+    width: 100%;
+   
+    color: aliceblue;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #474747;
+
+}
+
+#NewCurse:hover{
+    background: #2b2c2f;
+}
+
+hr{
+    margin: 5px 0;
+    border-width: 1px;
+    border-color: #33333377;
+}
+
+.lblCurso{
+    margin-top: 5px;
+    height: 18px;
+    /* background: brown; */
+    color: #717689;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.perfil{
+    width: 100%;
+    
+}
+.perfil li{
+    display: flex;
+    padding: 8px;
+    border-radius: 6px;
+    align-items: center;
+}
+.perfil li:hover{
+    background: #343541;
+}
+.perfil img{
+    width: 25px;
+    height: 25px;
+}
+.perfil p {
+    color: beige;
+    font-family: 'Lato';
+    background: blue;
+    /* font-weight: bold; */
+    font-size: 14;
+    margin: 0 5px;
+    width: 50;
+}
